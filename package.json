@@ -1,0 +1,50 @@
+{
+  "name": "startup-nextjs-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@prisma/client": "^5.5.2",
+    "@supabase/auth-helpers-nextjs": "^0.8.1",
+    "@supabase/auth-ui-react": "^0.4.5",
+    "@supabase/auth-ui-shared": "^0.1.7",
+    "@supabase/supabase-js": "^2.38.0",
+    "@types/bcrypt": "^5.0.0",
+    "axios": "^1.6.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "easymde": "^2.18.0",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "install": "^0.13.0",
+    "next": "13.5.4",
+    "next-themes": "^0.2.1",
+    "npm": "^10.2.0",
+    "pg": "^8.11.3",
+    "pnpm": "^8.8.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^9.0.0",
+    "react-modal-video": "^2.0.0",
+    "react-simplemde-editor": "^5.2.0",
+    "supabase": "^1.100.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.34",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2",
+    "prisma": "^5.4.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^5.0.4"
+  }
+}
