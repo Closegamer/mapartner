@@ -6,6 +6,7 @@ import "../styles/index.css";
 import { Providers } from "./providers";
 import {cookies} from "next/headers";
 import {createServerComponentClient} from "@supabase/auth-helpers-nextjs";
+import Script from 'next/script';
 
 export default async function RootLayout({
   children
@@ -29,6 +30,22 @@ export default async function RootLayout({
       <body className="dark:bg-black">
         <Providers>
           <Header session={session} />
+            <Script id="metrika-counter" strategy="afterInteractive">
+                {`(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+            ym(95430506, "init", {
+                  defer: true,
+                  clickmap:true,
+                  trackLinks:true,
+                  accurateTrackBounce:true,
+                  webvisor:true
+            });`
+                }
+            </Script>
           {children}
           <Footer />
           <ScrollToTop />
