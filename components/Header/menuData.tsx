@@ -14,12 +14,6 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 3,
-    title: "Банки",
-    path: "/banks",
-    newTab: false,
-  },
-  {
     id: 4,
     title: "Рассылка",
     path: "/contact",
