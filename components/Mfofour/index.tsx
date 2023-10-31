@@ -17,7 +17,7 @@ const Mfoone = () => {
                         subtitle="Мгновенный займ на карту."
                         link="https://refk.in/001bl"
                     >
-                        <OfferList text="Сумма: 1000 - 100000 рублей" status="active" />
+                        <OfferList text="Сумма: 1000 - 100000 руб" status="active" />
                         <OfferList text="Срок: 16 - 180 дней" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
                         <OfferList text="Возраст: 18 - 65 лет" status="active" />
@@ -30,8 +30,8 @@ const Mfoone = () => {
                         subtitle="Без поручителей, справок и залога."
                         link={"https://refk.in/001bn"}
                     >
-                        <OfferList text="Сумма: 2000 - 30000 рублей" status="active" />
-                        <OfferList text="Бесплатный первый заём до 7 дней" status="active" />
+                        <OfferList text="От 2000 руб" status="active" />
+                        <OfferList text="Бесплатный первый заём" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
                         <OfferList text="Возраст: От 18 до 75" status="active" />
                         <OfferList text="Банковская карта" status="active" />
@@ -40,10 +40,10 @@ const Mfoone = () => {
                         packageName="Умные Наличные"
                         price={" 30 000"}
                         duration={""}
-                        subtitle="Займы на банковскую карту за 15 минут."
+                        subtitle="Займы на карту за 15 минут."
                         link={"https://refk.in/001bo"}
                     >
-                        <OfferList text="От 3 000 до 30 000 рублей" status="active" />
+                        <OfferList text="От 3000 руб" status="active" />
                         <OfferList text="От 5 до 30 дней" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
                         <OfferList text="Возраст: От 18 до 65" status="active" />

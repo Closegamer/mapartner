@@ -30,7 +30,7 @@ const Mfothree = () => {
                         subtitle="Максимально быстро и удобно."
                         link={"https://refk.in/001b8"}
                     >
-                        <OfferList text="От 3 000 до 50 000 рублей" status="active" />
+                        <OfferList text="От 3000 рублей" status="active" />
                         <OfferList text="Паспорт РФ" status="active" />
                         <OfferList text="Без посещения офиса" status="active" />
                         <OfferList text="Возраст: 18 - 65 лет" status="active" />
@@ -43,11 +43,11 @@ const Mfothree = () => {
                         subtitle="Рефинансирование займов."
                         link={"https://refk.in/001bp"}
                     >
-                        <OfferList text="Займы от 1 до 36 месяцев" status="active" />
+                        <OfferList text="Срок: 1 - 36 мес" status="active" />
                         <OfferList text="Долгосрочные: 15К - 300К," status="active" />
                         <OfferList text="Краткосрочные: 9К - 30К" status="active" />
                         <OfferList text="Быстрое оформление" status="active" />
-                        <OfferList text="Высокий процент одобрения" status="active" />
+                        <OfferList text="Быстрое одобрение" status="active" />
                     </PricingBox>
                 </div>
             </div>

@@ -17,8 +17,8 @@ const Mfoone = () => {
                         subtitle="Мгновенный займ на карту."
                         link="https://refk.in/001b7"
                     >
-                        <OfferList text="Лимит кредитования: до 100 000 рублей" status="active" />
-                        <OfferList text="Мгновенный скоринг: за 30 секунд" status="active" />
+                        <OfferList text="Лимит: до 100 000 рублей" status="active" />
+                        <OfferList text="Скоринг за 30 секунд" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
                         <OfferList text="Возраст: 18 - 65 лет" status="active" />
                         <OfferList text="Банковская карта" status="active" />
@@ -31,7 +31,7 @@ const Mfoone = () => {
                         link={"https://refk.in/001bk"}
                     >
                         <OfferList text="Срок займа: От 7 до 30 дней" status="active" />
-                        <OfferList text="Первый займ для новых клиентов - 0%" status="active" />
+                        <OfferList text="Первый займ - 0%" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
                         <OfferList text="Возраст: От 18 до 75" status="active" />
                         <OfferList text="Банковская карта" status="active" />

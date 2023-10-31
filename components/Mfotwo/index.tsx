@@ -14,7 +14,7 @@ const Mfotwo = () => {
                         packageName="Joymoney"
                         price={" 100 000"}
                         duration={""}
-                        subtitle="Решение срочных финансовых проблем."
+                        subtitle="Решение финансовых проблем."
                         link={"https://refk.in/001bc"}
                     >
                         <OfferList text="Срок займа: от 10 до 168 дней" status="active" />
@@ -33,7 +33,7 @@ const Mfotwo = () => {
                         <OfferList text="Получение за 5-15 минут" status="active" />
                         <OfferList text="Возраст от 18 до 75 лет" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
-                        <OfferList text="Постоянный источник дохода" status="active" />
+                        <OfferList text="Источник дохода" status="active" />
                         <OfferList text="Банковская карта" status="active" />
                     </PricingBox>
                     <PricingBox

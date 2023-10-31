@@ -8,8 +8,8 @@ const MFOPage = () => {
     return (
         <>
             <Breadcrumb
-                pageName="Быстрые деньги на все случаи жизни"
-                description="Выдача денег в течение нескольких минут."
+                pageName="Быстрые деньги"
+                description="Выдача в течение нескольких минут."
             />
 
             <Mfoone />
