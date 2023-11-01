@@ -46,6 +46,8 @@ export default async function RootLayout({
             });`
                 }
             </Script>
+            {/* Roistat Counter Start */}
+
             <Script id="roistat-counter" strategy="afterInteractive">
             {`(function(w, d, s, h, id) {
     w.roistatProjectId = id; w.roistatHost = h;
@@ -55,6 +57,7 @@ export default async function RootLayout({
 })(window, document, 'script', 'cloud.roistat.com', 'cf9a2e328df66c8900b7f6ac4210d4e3');`
             }
             </Script>
+            {/* Roistat Counter End */}
           {children}
           <Footer />
           <ScrollToTop />
