@@ -6,7 +6,7 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import axios from 'axios'
 
-const Header = ({session}) => {
+const Header = ({session, admin}) => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -173,38 +173,38 @@ const Header = ({session}) => {
                         )}
                       </li>
                     ))}
-                    {/*{!!session && (*/}
-                    {/*    <>*/}
-                    {/*      <li>*/}
-                    {/*        <Link href="/account" className="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0">*/}
-                    {/*          Профиль*/}
-                    {/*        </Link>*/}
-                    {/*      </li>*/}
-                    {/*    </>*/}
-                    {/*)}*/}
+                    {!!admin && (
+                        <>
+                          <li>
+                            <Link href="/adminka" className="flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0">
+                              Админка
+                            </Link>
+                          </li>
+                        </>
+                    )}
                   </ul>
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                {/*{!!session && (*/}
-                {/*    <>*/}
-                {/*      <form action="/auth/signout" method="post">*/}
-                {/*        <button className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block" type="submit">*/}
-                {/*          Выход*/}
-                {/*        </button>*/}
-                {/*      </form>*/}
-                {/*    </>*/}
-                {/*)}*/}
-                {/*{!session && (*/}
-                {/*    <>*/}
-                {/*      <Link*/}
-                {/*          href="/signin"*/}
-                {/*          className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"*/}
-                {/*      >*/}
-                {/*        Вход*/}
-                {/*      </Link>*/}
-                {/*    </>*/}
-                {/*)}*/}
+                {!!session && (
+                    <>
+                      <form action="/auth/signout" method="post">
+                        <button className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block" type="submit">
+                          Выход
+                        </button>
+                      </form>
+                    </>
+                )}
+                {!session && (
+                    <>
+                      <Link
+                          href="/signin"
+                          className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
+                      >
+                        Вход
+                      </Link>
+                    </>
+                )}
                 <div>
                   <ThemeToggler />
                 </div>

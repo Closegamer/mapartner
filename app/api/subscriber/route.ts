@@ -17,12 +17,12 @@ export async function GET(request: NextRequest) {
                 }
             )
             if(exists == 0){
-                result = await prisma.user.create({
-                    data: {
-                        email: subscribe,
-                        intention: true
-                    },
-                });
+               result = await prisma.user.create({
+                        data: {
+                            email: subscribe,
+                            intention: true
+                        },
+                    });
             } else {
                 result = 'Email already exists'
             }
@@ -77,3 +77,14 @@ export async function GET(request: NextRequest) {
         });
     }
 }
+
+// import { Resend } from 'resend';
+//
+// const resend = new Resend('***');
+//
+// resend.emails.send({
+//     from: 'onboarding@resend.dev',
+//     to: 'mapartner@rambler.ru',
+//     subject: 'Hello World',
+//     html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
+// });
