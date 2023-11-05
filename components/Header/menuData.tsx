@@ -9,7 +9,7 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Микрокредиты",
+    title: "Быстрые кредиты",
     path: "/mfo",
     newTab: false,
   },
