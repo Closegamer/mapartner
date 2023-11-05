@@ -33,20 +33,20 @@ const Mfoone = () => {
                         <OfferList text="От 2000 руб" status="active" />
                         <OfferList text="Бесплатный первый заём" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
-                        <OfferList text="Возраст: От 18 до 75" status="active" />
+                        <OfferList text="Возраст: 18 - 75 лет" status="active" />
                         <OfferList text="Банковская карта" status="active" />
                     </PricingBox>
                     <PricingBox
-                        packageName="Умные Наличные"
-                        price={" 30 000"}
+                        packageName="Белка кредит"
+                        price={" 40 000"}
                         duration={""}
-                        subtitle="Займы на карту за 15 минут."
-                        link={"https://refk.in/001bo"}
+                        subtitle="Удобная прологнация"
+                        link={"https://refk.in/001bw"}
                     >
-                        <OfferList text="От 3000 руб" status="active" />
+                        <OfferList text="От 1000 руб" status="active" />
                         <OfferList text="От 5 до 30 дней" status="active" />
                         <OfferList text="Гражданство РФ" status="active" />
-                        <OfferList text="Возраст: От 18 до 65" status="active" />
+                        <OfferList text="Возраст: От 18 до 75" status="active" />
                         <OfferList text="Банковская карта" status="active" />
                     </PricingBox>
                 </div>

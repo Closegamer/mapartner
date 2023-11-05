@@ -14,8 +14,14 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
-    id: 4,
-    title: "Рассылка",
+    id: 3,
+    title: "Сервисы",
+    path: "/mfoservices",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "Подписка",
     path: "/contact",
     newTab: false,
   },

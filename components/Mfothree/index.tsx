@@ -34,7 +34,7 @@ const Mfothree = () => {
                         <OfferList text="Паспорт РФ" status="active" />
                         <OfferList text="Без посещения офиса" status="active" />
                         <OfferList text="Возраст: 18 - 65 лет" status="active" />
-                        <OfferList text="Банковская карта" status="inactive" />
+                        <OfferList text="Банковская карта" status="active" />
                     </PricingBox>
                     <PricingBox
                         packageName="Budgett"
