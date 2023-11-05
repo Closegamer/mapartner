@@ -26,6 +26,16 @@ const Footer = () => {
     LogoWhite.displayName = "LogoWhite";
   })
 
+  const YandexInformer = React.forwardRef((props, ref) => {
+    return (<Image
+        src="https://informer.yandex.ru/informer/95430506/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+        alt="Яндекс.Метрика"
+        width={88}
+        height={31}
+        className="ym-advanced-informer"
+    />)
+    LogoWhite.displayName = "LogoWhite";
+  })
   return (
     <>
       <footer
@@ -50,6 +60,11 @@ const Footer = () => {
                   Простейший способ освободиться от власти золота — это иметь его в избытке.<br />
                   <i>Сальвадор Дали</i>
                 </p>
+                <div className={"flex items-center"}>
+                  <Link href="https://metrika.yandex.ru/stat/?id=95430506&amp;from=informer" className="mb-8 inline-block">
+                    <YandexInformer />
+                  </Link>
+                </div>
                 {/*<div className="flex items-center">*/}
                 {/*  <a*/}
                 {/*    href="/"*/}
