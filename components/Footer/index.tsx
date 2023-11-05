@@ -34,7 +34,7 @@ const Footer = () => {
         height={31}
         className="ym-advanced-informer"
     />)
-    LogoWhite.displayName = "LogoWhite";
+    YandexInformer.displayName = "YandexInformer";
   })
   return (
     <>
