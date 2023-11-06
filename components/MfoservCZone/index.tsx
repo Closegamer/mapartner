@@ -27,7 +27,7 @@ const MfoservCZone = () => {
                         price={" 200 000"}
                         duration={""}
                         subtitle="Подбор вариантов"
-                        link={"https://refk.in/001gk"}
+                        link={"https://refk.in/001gp"}
                     >
                         <OfferList text="Возраст: 18 - 65 лет" status="active" />
                         <OfferList text="Срок: 5 - 20 дней" status="active" />
