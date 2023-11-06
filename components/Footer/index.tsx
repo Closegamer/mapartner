@@ -60,11 +60,11 @@ const Footer = () => {
                   Простейший способ освободиться от власти золота — это иметь его в избытке.<br />
                   <i>Сальвадор Дали</i>
                 </p>
-                <div className={"flex items-center"}>
-                  <Link href="https://metrika.yandex.ru/stat/?id=95430506&amp;from=informer" className="mb-8 inline-block">
-                    <YandexInformer />
-                  </Link>
-                </div>
+                {/*<div className={"flex items-center"}>*/}
+                {/*  <Link href="https://metrika.yandex.ru/stat/?id=95430506&amp;from=informer" className="mb-8 inline-block">*/}
+                {/*    <YandexInformer />*/}
+                {/*  </Link>*/}
+                {/*</div>*/}
                 {/*<div className="flex items-center">*/}
                 {/*  <a*/}
                 {/*    href="/"*/}
