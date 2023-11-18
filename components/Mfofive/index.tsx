@@ -11,7 +11,7 @@ const Mfofive = () => {
             <div className="container">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
                     <PricingBox
-                        packageName="Mfofive"
+                        packageName="Срочно деньги"
                         price={" 30 000"}
                         duration={""}
                         subtitle="С открытым займом"
@@ -37,7 +37,7 @@ const Mfofive = () => {
                         <OfferList text="Банковская карта" status="active" />
                     </PricingBox>
                     <PricingBox
-                        packageName="Быстрое рассмотрение"
+                        packageName="Max.Credit"
                         price={" 100 000"}
                         duration={""}
                         subtitle="Срок: от 16 до 180 дней"

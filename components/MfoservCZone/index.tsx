@@ -11,18 +11,6 @@ const MfoservCZone = () => {
             <div className="container">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
                     <PricingBoxServCZ
-                        packageName="Swetz"
-                        price={" 170 000+"}
-                        duration={""}
-                        subtitle="Подбор вариантов"
-                        link={"https://refk.in/001go"}
-                    >
-                        <OfferList text="Возраст: 18 - 90 лет" status="active" />
-                        <OfferList text="Любые заемщики" status="active" />
-                        <OfferList text="Банковская карта" status="active" />
-                        <OfferList text="Казахстан" status="active" />
-                    </PricingBoxServCZ>
-                    <PricingBoxServCZ
                         packageName="Credy"
                         price={" 200 000"}
                         duration={""}
@@ -31,6 +19,18 @@ const MfoservCZone = () => {
                     >
                         <OfferList text="Возраст: 18 - 65 лет" status="active" />
                         <OfferList text="Срок: 5 - 20 дней" status="active" />
+                        <OfferList text="Банковская карта" status="active" />
+                        <OfferList text="Казахстан" status="active" />
+                    </PricingBoxServCZ>
+                    <PricingBoxServCZ
+                        packageName="Swetz"
+                        price={" 170 000+"}
+                        duration={""}
+                        subtitle="Подбор вариантов"
+                        link={"https://refk.in/001go"}
+                    >
+                        <OfferList text="Возраст: 18 - 90 лет" status="active" />
+                        <OfferList text="Любые заемщики" status="active" />
                         <OfferList text="Банковская карта" status="active" />
                         <OfferList text="Казахстан" status="active" />
                     </PricingBoxServCZ>
