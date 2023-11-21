@@ -21,12 +21,18 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
+    title: "Кредитная история",
+    path: "/scoring",
+    newTab: false,
+  },
+  {
+    id: 5,
     title: "Беттинг",
     path: "/betting",
     newTab: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Подписка",
     path: "/contact",
     newTab: false,
