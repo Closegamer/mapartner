@@ -3,51 +3,25 @@ import { useState } from "react";
 import OfferList from "../utils/OfferList";
 import PricingBox from "../utils/PricingBox";
 
-const Zalogone = () => {
+const Zalogtwo = () => {
     const [isMonthly, setIsMonthly] = useState(true);
 
     return (
-        <section id="zalogone" className="relative z-10 py-4">
+        <section id="zalogtwo" className="relative z-10 py-4">
             <div className="container">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
                     <PricingBox
-                        packageName="Газпромбанк"
-                        price={" 7 000 000"}
+                        packageName="Credeo"
+                        price={" 6 000 000"}
                         duration={""}
-                        subtitle="Кредит под залог автомобиля."
-                        link={"https://refk.in/001wf"}
+                        subtitle="Займ под залог ПТС"
+                        link={"https://refk.in/001we"}
                     >
-                        <OfferList text="Без КАСКО" status="active" />
-                        <OfferList text="Возможно оформление без залога" status="active" />
-                        <OfferList text="Одобрение и оформление онлайн" status="active" />
-                        <OfferList text="Срок: до 8 лет" status="active" />
-                        <OfferList text="Карта в подарок" status="active" />
-                    </PricingBox>
-                    <PricingBox
-                        packageName="Credit.Club"
-                        price={" 15 000 000"}
-                        duration={""}
-                        subtitle="Кредит под залог квартиры."
-                        link={"https://refk.in/001wd"}
-                    >
-                        <OfferList text="Объект залога — квартира" status="active" />
-                        <OfferList text="Возраст от 20 до 70 лет" status="active" />
-                        <OfferList text="200 тыс - 15 млн руб" status="active" />
-                        <OfferList text="Решение за 15 минут" status="active" />
-                        <OfferList text="От 10,7% для физлиц" status="active" />
-                    </PricingBox>
-                    <PricingBox
-                        packageName="Совкомбанк"
-                        price={" 5 000 000"}
-                        duration={""}
-                        subtitle="Кредит под залог авто «Выгодный»"
-                        link={"https://refk.in/001wc"}
-                    >
-                        <OfferList text="Ставка: 6,9%" status="active" />
-                        <OfferList text="ПСК: 6,885% – 6,894%" status="active" />
-                        <OfferList text="150 тыс до 5 млн руб" status="active" />
-                        <OfferList text="Получение - день в день" status="active" />
-                        <OfferList text="Авто остается у вас" status="active" />
+                        <OfferList text="Ставка: 0,07% в день" status="active" />
+                        <OfferList text="ТС в собственности" status="active" />
+                        <OfferList text="Срок: 30-1080 дней" status="active" />
+                        <OfferList text="Гражданство РФ" status="active" />
+                        <OfferList text="Возраст: 18+" status="active" />
                     </PricingBox>
                 </div>
             </div>
@@ -110,4 +84,4 @@ const Zalogone = () => {
     );
 };
 
-export default Zalogone;
+export default Zalogtwo;
