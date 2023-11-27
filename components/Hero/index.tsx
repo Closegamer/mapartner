@@ -19,7 +19,7 @@ const Hero = ({session}) => {
                 </h1>
 
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Подпишитесь на рассылку и будете регулярно получать информацию о новых предложениях организаций. Отписаться от рассылки можно в любой момент.
+                Подпишитесь на рассылку и будете регулярно получать информацию о новых предложениях. Отписаться от рассылки можно в любой момент.
                 </p>
                 {/*{!!session && (*/}
                 {/*    <p>SESSION IS GOOD</p>*/}
