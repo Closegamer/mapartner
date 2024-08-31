@@ -30,18 +30,6 @@ const menuData: Menu[] = [
     title: "Кредитная история",
     path: "/scoring",
     newTab: false,
-  },
-  {
-    id: 6,
-    title: "Беттинг",
-    path: "/betting",
-    newTab: false,
-  },
-  {
-    id: 7,
-    title: "Подписка",
-    path: "/contact",
-    newTab: false,
-  },
+  }
 ];
 export default menuData;
