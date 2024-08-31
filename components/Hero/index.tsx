@@ -11,38 +11,47 @@ const Hero = ({session}) => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
-                data-wow-delay=".2s"
+                  className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                  data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Лучшие предложения по финансированию ваших желаний!
+                  Лучшие предложения по финансированию ваших желаний!
                 </h1>
 
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Подпишитесь на рассылку и будете регулярно получать информацию о новых предложениях. Отписаться от рассылки можно в любой момент.
+                  Если Вы берете деньги впервые в новой компании, скорее всего, Вам их дадут бесплатно! Под 0%! Не
+                  упустите свой шанс.
                 </p>
+
+                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                  Администрация сайта никого не агитирует на получение заемных средств. Помните, что их всегда надо отдавать, во избежание проблем.
+                </p>
+                {/*<p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">*/}
+                {/*  Подпишитесь на рассылку и будете регулярно получать информацию о новых предложениях. Отписаться от*/}
+                {/*  рассылки можно в любой момент.*/}
+                {/*</p>*/}
                 {/*{!!session && (*/}
                 {/*    <p>SESSION IS GOOD</p>*/}
                 {/*)}*/}
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/contact"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                   🔥 Подписаться
-                  </Link>
-                </div>
+                {/*<div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">*/}
+                {/*  <Link*/}
+                {/*    href="/contact"*/}
+                {/*    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"*/}
+                {/*  >*/}
+                {/*   🔥 Подписаться*/}
+                {/*  </Link>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
-            width="450"
-            height="556"
-            viewBox="0 0 450 556"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+              width="450"
+              height="556"
+              viewBox="0 0 450 556"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
           >
             <circle
               cx="277"
