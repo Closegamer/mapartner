@@ -18,13 +18,11 @@ const Hero = ({session}) => {
                   Лучшие предложения по финансированию ваших желаний!
                 </h1>
 
+                <p className="mb-2 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">Телеграм-бот для вашего удобства:</p>
+                <p className={'mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl'}><a className={'text-blue-500 animate-pulse'} href={'https://t.me/MoneyAcBot_bot'}>@MoneyAcBot_bot</a></p>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Если Вы берете деньги впервые в новой компании, скорее всего, Вам их дадут бесплатно! Под 0%! Не
-                  упустите свой шанс.
-                </p>
-
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Администрация сайта никого не агитирует на получение заемных средств. Помните, что их всегда надо отдавать, во избежание проблем.
+                  Администрация сайта никого не агитирует на получение заемных средств. Помните, что их всегда надо
+                  отдавать, во избежание проблем.
                 </p>
                 {/*<p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">*/}
                 {/*  Подпишитесь на рассылку и будете регулярно получать информацию о новых предложениях. Отписаться от*/}
